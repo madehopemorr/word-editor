@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
         <h1>Word Editor</h1>
@@ -10,12 +10,26 @@
                 <button onclick="setColor()">Set Color</button>
                 <input type="value">
             </div>
+            <div>
+                <button onclick="setLink()">Set Link</button>
+                <input type="value" value="https://mimo.app/i/hourglass-large.png"
+                
+                placeholder="https://mimo.app/r/kittles.png">
+            </div>
+            <div>
+                <button onclick="toggleUnderline()">Underline</button>
+                <button onclick="toggleItalic()">Italic</button>
+                <button onclick="toggleBold()">Bold</button>
+                <button onclick="addMonospace()">Monospace</button>
+                <button onclick="removeFormat()">Remove Format</button>
+            </div>
         </div>
+
         <div id="page">
             <img src="">
             <p>Lorum Ipsum code will go here and describe a scene.</p>
         </div>
-        <script src="script.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
 
